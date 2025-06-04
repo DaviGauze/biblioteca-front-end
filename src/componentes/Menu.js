@@ -23,7 +23,7 @@ export default function Menu() {
                     </a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="/categorias">
+                    <a className="nav-link" href="/listalivros">
                         Listar
                     </a>
                     </li>
@@ -48,13 +48,19 @@ export default function Menu() {
                         <a className="dropdown-item" href="/listaautor">
                             Autores
                         </a>
+                        <a className="dropdown-item" href="/listaeditora">
+                            Editoras
+                        </a>
+                        <a className="dropdown-item" href="/listaUsuarios">
+                            Usuários
+                        </a>
                         </li>
                         <li>
                         <hr className="dropdown-divider" />
                         </li>
                         <li>
-                        <a className="dropdown-item" href="/listaeditora">
-                            Editoras
+                        <a className="dropdown-item" href="/#">
+                            Something
                         </a>
                         </li>
                     </ul>
