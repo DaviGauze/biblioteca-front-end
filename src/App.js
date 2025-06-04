@@ -12,6 +12,8 @@ import ListaLivro from './paginas/ListaLivros';
 import FormLivros from './paginas/FormLivros';
 import ListaUsuarios from './paginas/ListaUsuarios';
 import FormUsuarios from './paginas/FormUsuarios';
+import ListaFuncionarios from './paginas/ListaFuncionarios';
+import FormFuncionarios from './paginas/FormFuncionarios';
 
 function App() {
   return (
@@ -41,6 +43,10 @@ function App() {
         <Route path = '/listausuarios' element = {<ListaUsuarios />} />
         <Route path = '/cadastrousuario/' element = {<FormUsuarios />} />
         <Route path = '/cadastrousuario/:id' element = {<FormUsuarios />} />
+        
+        <Route path = '/listafuncionarios' element = {<ListaFuncionarios />} />
+        <Route path = '/cadastrofuncionario/' element = {<FormFuncionarios />} />
+        <Route path = '/cadastrofuncionario/:id' element = {<FormFuncionarios />} />
 
         <Route path = '*' element = {<Home />} />
 

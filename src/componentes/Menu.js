@@ -54,6 +54,9 @@ export default function Menu() {
                         <a className="dropdown-item" href="/listaUsuarios">
                             Usuários
                         </a>
+                        <a className="dropdown-item" href="/listafuncionarios">
+                            Funcionários
+                        </a>
                         </li>
                         <li>
                         <hr className="dropdown-divider" />
